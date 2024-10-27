@@ -1,0 +1,4 @@
+Python is a popular programming language.
+Python is widely used in data science, machine learning, and web development.
+Python's simplicity makes it a great language for beginners.
+The Python community is large and supportive.

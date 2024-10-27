@@ -70,12 +70,12 @@ async def py_project():
 
         
 
-    with open(file='./users.json', mode="w") as w:
+    with open(file='./files/users.json', mode="w") as w:
         js.dump(new_users, w, indent=4)
 
     
     list = []
-    with open(file='./users.json', mode="r") as r:
+    with open(file='./files/users.json', mode="r") as r:
         content = js.loads(r.read())
         
         for i in content:
@@ -88,7 +88,7 @@ async def py_project():
             }
             list.append(data)
 
-    with open(file='./users.json', mode="w") as wf:
+    with open(file='./files/users.json', mode="w") as wf:
         wf.write(str(list))
 
     return list
@@ -143,6 +143,25 @@ t2.start()
 
 t1.join()
 t2.join()
+
+
+class User:
+  def __init__(self, name, age, email):
+    self.name = name
+    self.age = age
+    self.email = email
+
+  def toString(self):
+      str = self.name + self.age + self.email
+      print(str)
+p1 = User("John", 36, "sam@mail.com")
+
+print(p1.name)
+print(p1.age)
+print(p1.email)
+print(p1.toString())
+
+# inheritence, polymorphism, ...
 
 # l = [1,2,3,4,5,6, 6, 5, 2]
 # print(reverse_list(l))
