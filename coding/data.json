@@ -1,0 +1,13 @@
+[
+    {"id": 1, "name": "John Doe", "score": 85, "age": 29},
+    {"id": 2, "name": "Jane Smith", "score": 92, "age": 24},
+    {"id": 3, "name": "Alex Johnson", "score": 76, "age": 33},
+    {"id": 4, "name": "Maria Garcia", "score": 90, "age": 22},
+    {"id": 5, "name": "David Brown", "score": 63, "age": 31},
+    {"id": 6, "name": "Emily Davis", "score": 88, "age": 27},
+    {"id": 7, "name": "James Wilson", "score": 95, "age": 28},
+    {"id": 8, "name": "Sarah Lee", "score": 72, "age": 30},
+    {"id": 9, "name": "Michael Miller", "score": 83, "age": 35},
+    {"id": 10, "name": "Linda Taylor", "score": 78, "age": 26}
+  ]
+  
